@@ -21,12 +21,8 @@ collections:
 
   - name: "gallery"
     label: "Gallery"
-    widget: "list"
-    optional: true
     fields:
-      - {label: "Title", name: "imgTitle", widget: "string", optional: true}
-      - {label: "Gallery Image", name: "imgSrc", widget: "image", optional: true}
-      - {label: "Description", name: "imgDesc", widget: "string", optional: true}
+      - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Gallery, name: gallery, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
 
   - name: "pages"
     label: "Pages"
