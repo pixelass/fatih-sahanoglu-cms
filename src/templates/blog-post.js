@@ -88,7 +88,7 @@ GalleryPost.propTypes = {
 export default GalleryPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query GalleryPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
