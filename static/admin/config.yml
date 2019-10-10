@@ -24,9 +24,9 @@ collections:
     widget: "list"
     optional: true
     fields:
-      - {label: "Title", name: "imgTitle", widget: "string"}
-      - {label: "Gallery Image", name: "imgSrc", widget: "image"}
-      - {label: "Description", name: "imgDesc", widget: "string"}
+      - {label: "Title", name: "imgTitle", widget: "string", optional: true}
+      - {label: "Gallery Image", name: "imgSrc", widget: "image", optional: true}
+      - {label: "Description", name: "imgDesc", widget: "string", optional: true}
 
   - name: "pages"
     label: "Pages"
