@@ -59,7 +59,7 @@ const GalleryPost = ({ data }) => {
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <GalleryPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
