@@ -22,6 +22,7 @@ collections:
   - name: "gallery"
     label: "Gallery"
     widget: "list"
+    optional: true
     fields:
       - {label: "Title", name: "imgTitle", widget: "string"}
       - {label: "Gallery Image", name: "imgSrc", widget: "image"}
