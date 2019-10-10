@@ -19,10 +19,9 @@ collections:
       - {label: "Featured Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  name: "gallery"
+  - name: "gallery"
     label: "Gallery"
     widget: "list"
-    optional: true
     fields:
       - {label: "Title", name: "imgTitle", widget: "string"}
       - {label: "Gallery Image", name: "imgSrc", widget: "image"}
