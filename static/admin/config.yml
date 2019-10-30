@@ -4,6 +4,11 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: kellerkind
+    api_key: 877232899555517
 
 collections:
   - name: "blog"
