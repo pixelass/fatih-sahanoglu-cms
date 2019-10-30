@@ -1,0 +1,31 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.css]
+indent_size = 2
+tab_width = 2
+
+[*.scss]
+indent_size = 2
+
+[{*.ats,*.ts,*.tsx}]
+indent_style = tab
+
+[{*.js,*.cjs,*.jsx}]
+indent_style = tab
+
+[{.analysis_options,*.yml,*.yaml}]
+indent_size = 2
+
+[{.nycrc,.babelrc,.prettierrc,.stylelintrc,.eslintrc,jest.config,.sytlelintrc,*.json,*.jsb3,*.jsb2,*.bowerrc,*.graphqlconfig}]
+indent_size = 2
+tab_width = 2

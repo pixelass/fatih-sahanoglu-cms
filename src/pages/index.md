@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+image: /img/forest.jpg
+heading: kellerkind
+subheading: Fatih Sahanoglu
 mainpitch:
-  title: Why Kaldi
+  title: Philosophy
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Standard... I can't live with that.
+    I live my individual lifestyle. and rather listen to my friends and customers, than wear expensive clothing and play big or talk as if I was.
+    I try to find the perfect match with a well planned, direct, unforced chat and empathy. Lean back and enjoy. Together we have enough time to find what fits you best. Dive into the underground and forget everything around you.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

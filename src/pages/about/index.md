@@ -2,14 +2,11 @@
 templateKey: about-page
 title: About our values
 ---
-### Shade-grown coffee
 
-_Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species._
+Fatih was born on April 30th 1986 in Munich, Germany. Son of a family that has been living in Germany for 3 generations. In his two year career as an actor, one of the make-up artists noticed his flair and sense for art. It didn’t take too long that he chose to try something new. In 2002 he finally started his apprenticeship as a hairdresser, which he finished in 2005. He always knew that this was only the beginning. He never wanted to accept the existence as a hairdresser.
 
-### Single origin
+Life has so much more to give than just the mainstream, you can see on the streets today. After two years as a journeyman he finally made his master in 2007 in the Oberpfalz in Bavaria. After one year of apprenticeship he started giving cutting seminars. In the same time he spent a lot of time with photography.
 
-```
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-```
+In 2008 he met the photographer, Bert. Fatih and Bert are inflamed. With huge lust for photography and retreated to absolute isolation. Bert supplemented Fatih, as he did Bert.
 
-###
+In January 2010 the time had come. After two years of building time, his own inspiration and manual work, his artwork was finally opened to all his friends with a big welcome.
