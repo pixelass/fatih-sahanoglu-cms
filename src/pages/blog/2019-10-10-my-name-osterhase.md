@@ -4,7 +4,7 @@ title: My name Osterhase
 date: 2019-08-05T14:20:26.289Z
 description: dwwddw  wdwdc
 featuredpost: true
-featuredimage: /img/screen-shot-2019-10-10-at-00.34.42.png
+featuredimage: https://res.cloudinary.com/kellerkind/image/upload/v1572457475/CD6V0159_pfywad.jpg
 tags:
   - products
   - beauty

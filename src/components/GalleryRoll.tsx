@@ -46,7 +46,7 @@ class GalleryRoll extends React.Component<any> {
 							<Link paintDrip color={"white"} to={post.fields.slug}>
 							<Thumb
 								imageInfo={{
-									image: post.frontmatter.image,
+									image: post.frontmatter.featuredimage,
 									alt: `featured image thumbnail for post ${post.frontmatter.title}`
 								}}
 							/></Link>
@@ -78,13 +78,7 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								featuredpost
-								image {
-									childImageSharp {
-										fluid(maxWidth: 120, quality: 100) {
-											...GatsbyImageSharpFluid
-										}
-									}
-								}
+								featuredimage
 							}
 						}
 					}

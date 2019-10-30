@@ -7,8 +7,8 @@ import Layout from "../components/Layout";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import InViewMonitor from "react-inview-monitor";
 import ModularText from "../components/modular-text";
-
-const Img = styled(PreviewCompatibleImage)<{isVisible?: boolean}>`
+const PreviewImg = ({isVisible, imageInfo,  ...props}) => <PreviewCompatibleImage imageInfo={imageInfo} {...props}/>
+const Img = styled(PreviewImg)<{isVisible?: boolean}>`
 	position: relative;
 	z-index: 1;
 	transition-property: transform, opacity;
@@ -44,6 +44,7 @@ const Tile = styled.div`
 `;
 
 export const GalleryPostTemplate = ({tags, title, gallery, helmet}) => {
+	console.log(gallery);
 	return (
 		<Fold>
 			{helmet || null}
@@ -51,7 +52,8 @@ export const GalleryPostTemplate = ({tags, title, gallery, helmet}) => {
 				{title}
 			</ModularText>
 			<Gallery>
-				{gallery.map(({image, text}, i) => (
+				{gallery.map(({image, text}, i) => {
+					return (
 					<Tile key={i}
 						  style={{
 							  padding: `${(i % 5) * 2 + 2}rem ${((((i + 2) % 4)) * 2 + 2)}rem`
@@ -68,7 +70,7 @@ export const GalleryPostTemplate = ({tags, title, gallery, helmet}) => {
 							/>
 						</InViewMonitor>
 					</Tile>
-				))}
+				)})}
 			</Gallery>
 		</Fold>
 	);
