@@ -494,7 +494,6 @@ type MarkdownRemarkFrontmatter {
     ): Date
     description: String
     featuredimage: String
-    featuredpost: Boolean
     full_image: File
     gallery: [MarkdownRemarkFrontmatterGallery]
     heading: String
@@ -1053,7 +1052,6 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___date
     childMarkdownRemark___frontmatter___description
     childMarkdownRemark___frontmatter___featuredimage
-    childMarkdownRemark___frontmatter___featuredpost
     childMarkdownRemark___frontmatter___full_image___absolutePath
     childMarkdownRemark___frontmatter___full_image___accessTime
     childMarkdownRemark___frontmatter___full_image___atime
@@ -1524,7 +1522,6 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___date
     frontmatter___description
     frontmatter___featuredimage
-    frontmatter___featuredpost
     frontmatter___full_image___absolutePath
     frontmatter___full_image___accessTime
     frontmatter___full_image___atime
@@ -2435,7 +2432,6 @@ input MarkdownRemarkFrontmatterFilterInput {
     date: DateQueryOperatorInput
     description: StringQueryOperatorInput
     featuredimage: StringQueryOperatorInput
-    featuredpost: BooleanQueryOperatorInput
     full_image: FileFilterInput
     gallery: MarkdownRemarkFrontmatterGalleryFilterListInput
     heading: StringQueryOperatorInput
