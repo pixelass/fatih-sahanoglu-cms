@@ -37,7 +37,7 @@ class GalleryRoll extends React.Component<any> {
 	render() {
 		const {data} = this.props;
 		const {edges: posts} = data.allMarkdownRemark;
-
+		console.log(posts)
 		return (
 			<Gallery>
 				{posts &&
@@ -77,7 +77,6 @@ export default () => (
 								title
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
-								featuredpost
 								featuredimage
 							}
 						}
