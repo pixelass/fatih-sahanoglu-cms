@@ -9,15 +9,12 @@ const Gallery = styled.div`
 
 const ThumbWrapper = styled.article`
 	display: flex;
-	height: 50vh;
-	margin: 3rem;
 `;
 
 
 const Thumb = styled(PreviewCompatibleImage)`
 	display: block;
-	height: 50vmin;
-	width: 30vmin;
+	width: 20rem;
 `;
 
 const Link = styled(AniLink)`

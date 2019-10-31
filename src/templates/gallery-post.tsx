@@ -26,20 +26,23 @@ const Fold = styled.div`
 `;
 
 const Gallery = styled.div`
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
+	max-width: 80rem;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+	@media (min-width: 30rem) {
+		grid-template-columns: 1fr 1fr;
+	}
 `;
 
 const Tile = styled.div`
 	display: inline-flex;
-	width: max-content;
-	flex: 1 1 25rem;
-	@media (min-width: 70rem) {
-		flex: 1 1 35rem;
-	}
+	width: 100%;
+	align-self: center;
+
 	.IVmonitor {
-		flex: 1;
+		width: 100%;
 	}
 `;
 
@@ -54,10 +57,7 @@ export const GalleryPostTemplate = ({tags, title, gallery, helmet}) => {
 			<Gallery>
 				{gallery.map(({image, text}, i) => {
 					return (
-					<Tile key={i}
-						  style={{
-							  padding: `${(i % 5) * 2 + 2}rem ${((((i + 2) % 4)) * 2 + 2)}rem`
-						  }}>
+					<Tile key={i}>
 						<InViewMonitor
 							childPropsInView={{isVisible: true}}
 							classNameNotInView="IVmonitor"
