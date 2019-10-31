@@ -9,6 +9,7 @@ media_library:
   config:
     cloud_name: kellerkind
     api_key: 877232899555517
+    output_filename_only: true
 
 collections:
   - name: "blog"
