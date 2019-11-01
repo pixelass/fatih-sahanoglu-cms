@@ -4142,6 +4142,14 @@ clone@^2.1.1:
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
 
+cloudinary@^1.15.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.16.0.tgz#d2254a04fc0cacf3cae4ec8fce2005c82e6dc78a"
+  integrity sha512-Tna7JsQ9Drssn/Su3AcTzozDuqMFlY5bIj/476AJMechquxeOEcLF0z5ucUtkAd1N3tR9ndLvVszz7anG6Zp4Q==
+  dependencies:
+    lodash "^4.17.11"
+    q "^1.5.1"
+
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -7479,6 +7487,15 @@ gatsby-telemetry@^1.1.35:
     stack-trace "^0.0.10"
     stack-utils "1.0.2"
     uuid "3.3.3"
+
+gatsby-transformer-cloudinary@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-cloudinary/-/gatsby-transformer-cloudinary-0.3.0.tgz#ad695862b319f87f1931bca31da6a737130164a2"
+  integrity sha512-C8UzeOmKeSygqH7s54WUNAm/mOUBVofnWNhjygQUSWbgnKDTv9Twae6IUHxp6zr3k8KtLuC5HyUpyK7ksFPBzw==
+  dependencies:
+    axios "^0.19.0"
+    cloudinary "^1.15.0"
+    fs-extra "^8.1.0"
 
 gatsby-transformer-remark@^2.6.32:
   version "2.6.32"
@@ -13998,7 +14015,7 @@ purgecss@^1.3.0:
     postcss-selector-parser "^6.0.0"
     yargs "^14.0.0"
 
-q@^1.1.2:
+q@^1.1.2, q@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
