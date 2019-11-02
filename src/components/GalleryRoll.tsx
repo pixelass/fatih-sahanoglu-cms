@@ -5,36 +5,35 @@ import styled from "styled-components";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Gallery = styled.div`
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2px;
 `;
 
 const ThumbWrapper = styled.article`
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 `;
 
 
 const Thumb = styled(PreviewCompatibleImage)`
 	display: block;
-	width: 20rem;
+	width: 100%;
 `;
 
 const Link = styled(AniLink)`
 	display: block;
-	height: 100%;
-	width: auto;
-	margin-right: 3rem;
 `;
 
 const Title = styled.h2`
-	height: 100%;
-	width: 100%;
-	flex: 1;
+	font-family: Magneta, serif;
 `;
 
 class GalleryRoll extends React.Component<any> {
 	render() {
 		const {data} = this.props;
 		const {edges: posts} = data.allMarkdownRemark;
-		console.log(posts)
 		return (
 			<Gallery>
 				{posts &&

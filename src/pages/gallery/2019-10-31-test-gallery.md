@@ -10,9 +10,6 @@ gallery:
       https://res.cloudinary.com/kellerkind/image/upload/t_wide/v1572522488/barbershop%20marrakesh/image_007_hxh8zi.jpg
     text: alt text
   - image: >-
-      https://res.cloudinary.com/kellerkind/image/upload/t_square/v1572522490/barbershop%20marrakesh/image_002_xvrkap.jpg
-    text: alt text
-  - image: >-
       https://res.cloudinary.com/kellerkind/image/upload/t_wide/v1572522488/barbershop%20marrakesh/image_008_pxq388.jpg
     text: alt text
   - image: >-
@@ -23,9 +20,6 @@ gallery:
     text: alt text
   - image: >-
       https://res.cloudinary.com/kellerkind/image/upload/t_wide/v1572522486/barbershop%20marrakesh/image_004_avrtui.jpg
-    text: alt text
-  - image: >-
-      https://res.cloudinary.com/kellerkind/image/upload/t_wide/v1572522486/barbershop%20marrakesh/image_005_cpc6af.jpg
     text: alt text
   - image: >-
       https://res.cloudinary.com/kellerkind/image/upload/t_tall/v1572522485/barbershop%20marrakesh/image_003_bpjn6t.jpg

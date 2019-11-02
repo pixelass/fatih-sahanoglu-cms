@@ -4,12 +4,12 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: kellerkind
-    api_key: 877232899555517
-    output_filename_only: true
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: kellerkind
+#     api_key: 877232899555517
+#     output_filename_only: true
 
 collections:
   - name: "blog"

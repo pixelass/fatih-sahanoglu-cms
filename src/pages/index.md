@@ -1,8 +1,7 @@
 ---
 templateKey: index-page
 title: Kellerkind
-image: >-
-  https://res.cloudinary.com/kellerkind/image/upload/t_wide/v1572523849/landingpage/forest_bm5dyw.jpg
+image: /img/pure.jpg
 heading: kellerkind
 subheading: Fatih Sahanoglu
 mainpitch:

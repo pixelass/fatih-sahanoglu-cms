@@ -5,9 +5,9 @@ require('dotenv').config({
 
 module.exports = {
 	siteMetadata: {
-		title: "Gatsby + Netlify CMS Starter",
+		title: "Kellerkind",
 		description:
-			"This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution."
+			"Kellerkind. Fatih Sahanoglu"
 	},
 	plugins: [
 		"gatsby-plugin-react-helmet",
@@ -46,18 +46,6 @@ module.exports = {
 			options: {
 				path: `${__dirname}/static/fonts`,
 				name: "fonts"
-			}
-		},
-
-		{
-			resolve: "gatsby-transformer-cloudinary",
-			options: {
-				cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-				apiKey: process.env.CLOUDINARY_API_KEY,
-				apiSecret: process.env.CLOUDINARY_API_SECRET,
-
-				// This folder will be created if it doesn’t exist.
-				uploadFolder: "gatsby-cloudinary"
 			}
 		},
 		"gatsby-plugin-sharp",
