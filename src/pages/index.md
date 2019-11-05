@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Kellerkind
-image: /img/pure.jpg
+image: /img/typewriter-1.1.jpg
 heading: kellerkind
 subheading: Fatih Sahanoglu
 mainpitch:
