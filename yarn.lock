@@ -1653,15 +1653,17 @@
     react "16.8.6"
     ts-lib "0.0.5"
 
-"@stickyroll/decorators@1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@stickyroll/decorators/-/decorators-1.1.6.tgz#3f2bc03fec1b3231188472b17bc0033616418d29"
-  integrity sha512-SwupJCaciejn79FioqnvXWlezrPw9LTysJLtfyDrbi+uIsxpvKA8lYtF1eHABxCs+mi7OCi7F8csbsNrS2Hxjg==
+"@stickyroll/context@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stickyroll/context/-/context-1.2.0.tgz#6b8e45b427e611a892d9de8562ff545a984d2fc6"
+  integrity sha512-LPG5mHaynNcLhbnLdIG0xUR1JjsuySeAIZ/PgsctbLAAer1f3lJAdZGlXDpVcn/L3PDOwV16zt7ObtbCx6kPiQ==
+
+"@stickyroll/decorators@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stickyroll/decorators/-/decorators-1.2.0.tgz#41d0de6b61f039a9cac6e83222cbc82805d28dd4"
+  integrity sha512-yhB4JMOhzvkFcMHBMxiMj2+jO2KfcQYrw8bpFNdzpP1OBMvLxYlOWutmbQJRtu2XW4D+rANyntkIVAwZ5J19EQ==
   dependencies:
-    "@stickyroll/context" "^1.1.6"
-    "@types/react" "16.8.23"
-    react "16.8.6"
-    ts-lib "0.0.5"
+    "@stickyroll/context" "^1.2.0"
 
 "@stickyroll/frame@^1.1.6":
   version "1.1.6"
